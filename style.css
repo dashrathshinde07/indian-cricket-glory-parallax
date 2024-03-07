@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    columns: #666;
+}
+
+.pimage1{
+    background-image: url(images/1605178989_india-fans-bcci.jpg);
+    min-height: 100%;
+    
+}
+.pimage2{
+    background-image: url(images/1983WorldCupIndianWinningTeam.jpg);
+    min-height: 500px;
+    /* padding: 50px; */
+    
+}
+.pimage3{
+    background-image: url(images/2000under-19.jpg);
+    min-height: 400px;
+    
+}
+.pimage4{
+    background-image: url(images/India_-_2007.jpg);
+    min-height: 400px;
+    
+}
+
+.pimage5{
+    background-image: url(images/under-19\ world\ cup\ 2008.jpg);
+    min-height: 400px;
+    
+}
+
+.pimage6{
+    background-image: url(images/icicicricketworldcoup2011.jpg);
+    min-height: 400px;
+    
+}
+.pimage7{
+    background-image: url(images/under-19\ circkert\ world\ cup\ 2012.jpg);
+    min-height: 400px;
+    
+}
+.pimage8{
+    background-image: url(images/championstrophy2013.jpg);
+    min-height: 400px;
+    
+}
+.pimage9{
+    background-image: url(images/INDu19.png);
+    min-height: 400px;
+    
+}
+.pimage10{
+    background-image: url("https://resources.pulse.icc-cricket.com/photo-resources/2022/02/06/b0908fe4-e117-47ef-9bf3-fecdc5d67862/GettyImages-1368826114.jpg?width=1920&height=1080");
+    min-height: 400px;
+    
+}
+
+.pimage1, .pimage2, .pimage3, .pimage4, .pimage5, .pimage6, .pimage7,.pimage8,.pimage9, .pimage10{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textBg{
+    background-color: #313534;
+    color: white;
+    padding: 20px;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+
+
+
+/* footer styling */
+
+
+/* Example CSS for the footer */
+footer {
+    background-color: #211C3E;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social a {
+    color: #fff;
+    margin-right: 50px;
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.footer-social{
+    margin-right: 458px;
+}
